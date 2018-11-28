@@ -1,0 +1,57 @@
+Task 0: 25th July 2018: Regression
+
+1. Take numerical data set of your choice or refer dataset of last semester worked on  for regression application.
+2. Create 5 samples of same size(all sample must be same size) from that original dataset randomly. 
+3. Calculate mean value of all samples and original dataset of target feature. 
+4. Train 6 regression models i.e. 5 on samples and 1 on original data. Note down error or rmse ...
+5. Prepare a table that display ..original data set and all sample mean value and rmse...
+6. Send that table to my mail id.
+
+
+Task 1: 1st August 2018: kNN Ensemble
+
+1. Take a data set of your choice (classification data set)
+2. divide data set into 60% and 40%
+2. Create samples (5) randomly from 60% dataset 
+3. Train KNN on each sample
+4. Note down the efficiency (test on 40% data set)of  all five models 
+5. Develop an ensemble mode as:
+    combine all 5 models and final results will be calculated as voting
+6. Test ensemble model on 40% data-set and note down the efficiency 
+7. Send me consolidate results (efficiency of all five models and ensemble model)
+
+
+Task 2: 17th August 2018: AdaBoost
+
+Download any classification dataset (i.e. iris from r studio)
+Perform classification using adaboost (you may use packages)
+Observe the efficiency by manipulating various parameter such as depth of tree, iterations etc
+Plot the sigma and error of every stump (weak classifier).
+Send code and result in mail
+
+
+Task 3: 5th September 2018: CART
+
+          1. Take two different datasets of your choice: (i) classification tree problem (ii) regression tree problem
+
+2. Apply CART on both kind of data
+3. Analyse the results
+
+
+Task 4: 24th October: PCA
+
+Calculate covariance matrix of data
+Calculate correlation matrix of data
+Standardize the data (mean=0 and suing SD)
+Again calculate covariance matrix of data
+Observer results of step 2 and 4 is same? Think…
+Calculate the eigen vector and print it.
+Calculate the eigen value and print it.
+Extract top two pca, i.e against highest eigen value
+Project the data into new feature space.
+Aforesaid steps are to implement PCA step by step process and it will help to understand PCA working. But in real environment, you can use directly PCA libraries/packages and it will give you answer in few line coding. Try this.
+
+
+Task 5: 14th November 2018: DBScan
+
+Apply DBSCAN cluster algorithm on given dataset and observe the results with respect to various Eps and MinPts.
